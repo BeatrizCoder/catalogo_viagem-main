@@ -85,19 +85,24 @@ nav div li a{
 
 body section#viagens section#viagens-nacionais{
     display: flex;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    vertical-align: baseline;
 }
 
 body section#viagens section#viagens-nacionais div{
     justify-content: center;
     text-align: center;
+    padding-bottom: 2rem;
+    vertical-align: baseline;
 }
 
 body section#viagens section#viagens-nacionais h2{
     padding-top: 1rem;
-    padding-left: 3rem;
-    padding-right: 4rem;
+    padding-left: 2rem;
+    padding-right: 2.5rem;
+    font-size: 1rem;
+    text-align:start;
 }
 
 body section#viagens section#viagens-nacionais div img{
@@ -108,61 +113,37 @@ body section#viagens section#viagens-nacionais div img{
 /* SECTION VIAGENS INTERNACIONAIS */
 
 /* Tamanho da suiça alterado separadamente por conta da imagem ser muito grande */
-body section#viagens section#viagens-internacionais section#tamanho-suica img{
-    width: 22vw;
-    height: 14.6vw;
-    border-radius: 4%;
-}
+ body section#viagens section#viagens-internacionais div#suica img{
+     height: 170px;
 
-body section#viagens section#viagens-internacionais div img{
-    width: 20vw;
-    border-radius: 4%;
-}
+ }
+
 
 body section#viagens section#viagens-internacionais{
     display: flex;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    margin: 55px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    vertical-align: baseline;
 }
 
 body section#viagens section#viagens-internacionais div{
     justify-content: center;
     text-align: center;
+    padding-bottom: 2rem;
+    vertical-align: baseline;
 }
 
 body section#viagens section#viagens-internacionais h2{
     padding-top: 1rem;
-    padding-left: 3rem;
-    padding-right: 4rem;
+    padding-left: 2rem;
+    padding-right: 2.5rem;
+    font-size: 1rem;
+    text-align:start;
 }
 
 body section#viagens section#viagens-internacionais div img{
-    width: 22vw;
+    width: 250px;
     border-radius: 4%;
 }
 
- footer{
-    padding: .8vw;
-    position: relative;
-    width: 100%;
-
-}
-
-footer ul li{
-    background-color: #023047;
-    width: 100%;
-    list-style: none;
-    display: flex; 
-    justify-content: center;
-}
-
-footer ul li a{
-    padding: .8vw; 
-    margin-left: 5vw;
-    justify-content: center;
-    color: #fff;
-    font-size: 1.5vw;
-    text-decoration: none;
-}
 
